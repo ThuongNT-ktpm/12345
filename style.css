@@ -1,0 +1,16 @@
+body {
+  background: #fffbea;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+.love-icon {
+  display: inline-block;
+  margin: 10px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.tapped {
+  color: #ff69b4;
+  font-weight: bold;
+}
