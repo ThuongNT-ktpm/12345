@@ -98,10 +98,15 @@ function tapLove(id) {
       if (!loveMsg) return console.error("Không tìm thấy element loveMsg!");
 
       typeWriterEffect(
-        `Chúc ${userName} bé nhỏ của anh lúc nào cũng vui tươi như một em bé, nhưng luôn được anh nâng niu như một nữ hoàng xinh đẹp 👑.
-Dù em có lớn đến đâu, thì trong mắt anh, em mãi là công chúa bé bỏng, đáng yêu vô đối, phải được ôm hôn, cưng nựng và chiều chuộng mỗi ngày cho đủ tiêu chuẩn cute 🥺💘
+        `Chúc ${userName} bé nhỏ của anh lúc nào cũng vui tươi như một em bé, nhưng luôn được anh nâng niu như một nữ hoàng xinh đẹp 👑. Dù em có lớn đến đâu, thì trong mắt anh, em mãi là công chúa bé bỏng, đáng yêu vô đối, phải được ôm hôn, cưng nựng và chiều chuộng mỗi ngày cho đủ tiêu chuẩn cute 🥺💘. Anh iu em nhấc cả vũ trụ luôn á 💫
 
-Anh iu em nhấc cả vũ trụ luôn á 💫`,
+Người yêu anh là món quà quý giá nhất mà cuộc sống đã ban tặng 💝. Em không chỉ xinh đẹp với nụ cười rạng rỡ 😊 mà còn có một trái tim dịu dàng, luôn biết yêu thương và bao dung 💖. Mỗi ngày bên em, anh cảm thấy thế giới trở nên nhẹ nhàng và tươi sáng hơn 🌞. Em như ánh nắng sớm mai, ấm áp len vào từng ngóc ngách của tâm hồn anh.
+
+Có những lúc anh mệt mỏi, chỉ cần nghe giọng nói của em cũng đủ khiến anh thấy bình yên 😌. Em không cần làm điều gì to tát, chỉ cần ở cạnh anh, cùng anh chia sẻ những niềm vui nhỏ bé và cả những nỗi buồn vu vơ 🌈. Chính sự quan tâm lặng lẽ và chân thành ấy khiến anh càng thêm yêu em nhiều hơn mỗi ngày 💓.
+
+Anh yêu cách em cười, cách em nhìn anh âu yếm 🥰, và cả những lúc em nhẹ nhàng nắm lấy tay anh mà không nói một lời 🤝. Trong ánh mắt em, anh nhìn thấy cả tương lai mà anh hằng mong ước: một mái ấm bình yên, có em, có anh, cùng nhau đi qua bao mùa nắng mưa 🏡💑.
+
+Và này, em đừng bỏ bữa nhé 🍽️, nhớ ngủ sớm 😴, giữ gìn sức khỏe và luôn mỉm cười thật nhiều 💕. Anh lúc nào cũng ở đây, thương em rất nhiều 💘. Dù mai sau có ra sao, thì em vẫn luôn là lý do khiến trái tim anh lỡ nhịp mỗi khi nhớ đến 💞.`,
         "loveMsg",
         () => {
           const fromTag = document.createElement("div");
